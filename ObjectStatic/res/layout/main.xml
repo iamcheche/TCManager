@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="bottom|center"
+		android:paddingBottom="40dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="CATEGORY MENU"
+			android:layout_width="wrap_content"
+			android:textSize="25sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="center">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="PRIMARY"
+			android:layout_width="150dp"
+			android:id="@+id/id_primary"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="SECONDARY"
+			android:layout_width="150dp"
+			android:layout_margin="10dp"
+			android:id="@+id/id_secondary"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="TERTIARY"
+			android:layout_width="150dp"
+			android:id="@+id/id_tertiary"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="bottom|center"
+		android:paddingBottom="15dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Copyright series of 2014"
+			android:layout_width="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="80dp"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="dp"
+			android:orientation="vertical"
+			android:layout_weight="2.5"
+			android:gravity="left|center"
+			android:paddingLeft="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="MSD002L1"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:id="@+id/id_txt_subject"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Room: 5401"
+				android:layout_width="wrap_content"
+				android:id="@+id/id_txt_room"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Tecnological Institute of Technology"
+				android:layout_width="wrap_content"
+				android:id="@+id/id_txt_schoolname"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:orientation="vertical"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="12:00 - 1:30pm"
+				android:layout_width="wrap_content"
+				android:textSize="22sp"
+				android:id="@+id/id_txt_schedtime"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="40dp"
+			android:text="CLASS PROPERTIES"
+			android:layout_width="fill_parent"
+			android:gravity="left|center"
+			android:paddingLeft="20dp"
+			android:layout_marginTop="10dp"
+			android:textSize="30sp"
+			android:textColor="#000000"
+			android:textStyle="bold|italic"
+			android:background="@drawable/oval"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Class Section Name"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round"
+				android:textCursorDrawable="@null"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:padding="5dp">
+				<requestFocus/>
+			</EditText>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Subject Name"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round"
+				android:textCursorDrawable="@null"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:padding="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Batch"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="From:"
+					android:layout_width="wrap_content"
+					android:textSize="15sp"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="0dp"
+					android:background="@drawable/round"
+					android:textCursorDrawable="@null"
+					android:singleLine="true"
+					android:textColor="#000000"
+					android:layout_weight="1.0"
+					android:padding="5dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="To:"
+					android:layout_width="wrap_content"
+					android:textSize="15sp"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="0dp"
+					android:background="@drawable/round"
+					android:textCursorDrawable="@null"
+					android:singleLine="true"
+					android:textColor="#000000"
+					android:layout_weight="1.0"
+					android:padding="5dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="School Name"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round"
+				android:textCursorDrawable="@null"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:padding="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Year Level"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round"
+				android:textCursorDrawable="@null"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:padding="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="No. of Students"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round"
+				android:textCursorDrawable="@null"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:padding="5dp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="40dp"
+			android:text="CLASS SCHEDULE"
+			android:layout_width="fill_parent"
+			android:gravity="left|center"
+			android:paddingLeft="20dp"
+			android:textSize="30sp"
+			android:textColor="#000000"
+			android:textStyle="bold|italic"
+			android:background="@drawable/oval"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Day"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:orientation="horizontal">
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:text="Mon"
+					android:layout_width="wrap_content"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:text="Tue"
+					android:layout_width="wrap_content"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:text="Wed"
+					android:layout_width="wrap_content"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:text="Thur"
+					android:layout_width="wrap_content"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:text="Fri"
+					android:layout_width="wrap_content"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:text="Sat"
+					android:layout_width="wrap_content"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Time"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:orientation="horizontal">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="From:"
+						android:layout_width="0dp"
+						android:textSize="15sp"
+						android:layout_weight="0.2"/>
+
+					<TimePicker
+						android:layout_height="150dp"
+						android:layout_width="0dp"
+						android:layout_weight="1.0"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:orientation="horizontal">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="To:"
+						android:layout_width="0dp"
+						android:textSize="15sp"
+						android:layout_weight="0.2"/>
+
+					<TimePicker
+						android:layout_height="150dp"
+						android:layout_width="0dp"
+						android:layout_weight="1.0"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Room"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_marginBottom="5dp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round"
+				android:textCursorDrawable="@null"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:padding="5dp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="40dp"
+			android:text="CLASS GRADING"
+			android:layout_width="fill_parent"
+			android:gravity="left|center"
+			android:paddingLeft="20dp"
+			android:textSize="30sp"
+			android:textColor="#000000"
+			android:textStyle="bold|italic"
+			android:background="@drawable/oval"/>
+
+		<TextView
+			android:layout_height="40dp"
+			android:text="CLASS SEAT PLAN"
+			android:layout_width="fill_parent"
+			android:gravity="left|center"
+			android:paddingLeft="20dp"
+			android:textSize="30sp"
+			android:textColor="#000000"
+			android:textStyle="bold|italic"
+			android:background="@drawable/oval"/>
+
+	</LinearLayout>
+
+</ScrollView>

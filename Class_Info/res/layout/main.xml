@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="50dp"
+		android:text="CLASS INFORMATION"
+		android:layout_width="match_parent"
+		android:textSize="30sp"
+		android:gravity="center"/>
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:fillViewport="true"
+		android:layout_weight="1.0">
+
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="30dp"
+					android:text="Section Name"
+					android:layout_width="match_parent"
+					android:gravity="left|center"
+					android:paddingLeft="10dp"
+					android:textSize="20sp"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="30dp"
+					android:text="Year Level"
+					android:layout_width="match_parent"
+					android:textSize="20sp"
+					android:paddingLeft="10dp"
+					android:gravity="left|center"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="30dp"
+					android:text="Room"
+					android:layout_width="match_parent"
+					android:textSize="20sp"
+					android:paddingLeft="10dp"
+					android:gravity="left|center"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="30dp"
+					android:text="Batch"
+					android:layout_width="match_parent"
+					android:textSize="20sp"
+					android:paddingLeft="10dp"
+					android:gravity="left|center"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="30dp"
+					android:text="No. of Student"
+					android:layout_width="match_parent"
+					android:textSize="20sp"
+					android:paddingLeft="10dp"
+					android:gravity="left|center"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="30dp"
+					android:text="School Name"
+					android:layout_width="match_parent"
+					android:textSize="20sp"
+					android:paddingLeft="10dp"
+					android:gravity="left|center"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_weight="0.0"
+		android:orientation="horizontal"
+		android:gravity="right|center">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Next"
+			android:layout_width="150dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+

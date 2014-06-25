@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="40dp"
+		android:text="GRADING SYSTEM"
+		android:layout_width="match_parent"
+		android:textSize="30sp"
+		android:gravity="left|center"
+		android:layout_marginLeft="10dp"/>
+
+	<LinearLayout
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FF0F00"/>
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:padding="5dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Grading Field"
+			android:layout_width="wrap_content"
+			android:textSize="20sp"
+			android:gravity="bottom|left"
+			android:layout_marginLeft="5dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				android:orientation="horizontal"
+				android:layout_weight="0.75"
+				android:padding="2dp">
+
+				<ListView
+					android:layout_height="match_parent"
+					android:layout_width="wrap_content"
+					android:id="@+id/grading_list"
+					android:listSelector="@color/focused_color"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				android:orientation="vertical"
+				android:layout_weight="0.25">
+
+				<Button
+					android:id="@+id/addField"
+					android:layout_height="wrap_content"
+					android:text="Add"
+					android:layout_width="match_parent"/>
+
+				<Button
+					android:id="@+id/deleteField"
+					android:layout_height="wrap_content"
+					android:text="Delete"
+					android:layout_width="match_parent"/>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:gravity="bottom">
+
+					<Button
+						android:id="@+id/useField"
+						android:layout_height="wrap_content"
+						android:text="Use"
+						android:layout_width="match_parent"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#FF0F00"/>
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:padding="5dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Grading Formulation"
+			android:layout_width="match_parent"
+			android:textSize="20sp"
+			android:gravity="bottom|left"
+			android:layout_marginLeft="5dp"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:id="@+id/appendText"
+				android:layout_height="wrap_content"
+				android:text="Formula"
+				android:layout_width="wrap_content"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="+"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="-"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="*"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="/"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="("
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text=")"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FF0F00"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="right|center"
+		android:padding="5dp">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Set Computations"
+			android:layout_width="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+

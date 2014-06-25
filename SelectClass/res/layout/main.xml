@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1.0"
+		android:background="#917977"
+		android:layout_margin="5dp">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:orientation="vertical"
+			android:layout_weight="0.4"
+			android:gravity="right|center">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Class Name:"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="No. of Student:"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Class Hour:"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Class Days:"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:orientation="vertical"
+			android:layout_weight="0.6"
+			android:gravity="left|center"
+			android:layout_marginLeft="5dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="SEC001"
+				android:layout_width="match_parent"
+				android:textSize="20sp"
+				android:textColor="#4A2C28"
+				android:textStyle="bold|italic"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="40"
+				android:layout_width="match_parent"
+				android:textSize="20sp"
+				android:textColor="#4A2C28"
+				android:textStyle="bold|italic"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="12:30pm - 3:00pm"
+				android:layout_width="match_parent"
+				android:textSize="20sp"
+				android:textColor="#4A2C28"
+				android:textStyle="bold|italic"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Mon - Wed - Fri"
+				android:layout_width="match_parent"
+				android:textSize="20sp"
+				android:textColor="#4A2C28"
+				android:textStyle="bold|italic"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#FF0F00"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"/>
+
+	<LinearLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="3.0"
+		android:layout_margin="5dp">
+
+		<ListView
+			android:id="@+id/myListId"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_weight="0.0">
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Add Record"
+			android:layout_width="fill_parent"
+			android:layout_weight="1.0"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:background="@drawable/oval"/>/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Edit Record"
+			android:layout_width="fill_parent"
+			android:layout_weight="1.0"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:background="@drawable/oval"/>/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Log Record"
+			android:layout_width="fill_parent"
+			android:layout_weight="1.0"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:background="@drawable/oval"/>/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+
